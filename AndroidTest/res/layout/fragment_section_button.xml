@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:padding="5dp">
+	<Button 
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_gravity="center"
+	    android:textSize="20sp"
+	    android:textColor="#FFF"
+	    android:text="@string/default_button_title"
+	    android:background="#e36c09"
+	    android:onClick="onButtonClick"
+	    android:layout_marginBottom="5dp"
+	    android:padding="10dp"/>
+	
+	<TextView
+	    android:id="@+id/hello"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_gravity="center"
+	    android:padding="5dp"
+	    android:text="@string/hello_world"
+	    android:textSize="36sp"
+	    android:textColor="#FFF"
+	    android:background="@drawable/custom_shape"
+	    style="@android:style/Widget.TextView.PopupMenu"
+	    android:visibility="invisible"
+	    />
+</LinearLayout>

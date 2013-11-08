@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WestWing Android Test</string>
+    <string name="app_title">WestWing App</string>
+
+    <string name="menu_settings">About this app</string>
+    <string name="about_title">About</string>
+    <string name="about_message">Test application for WestWing Home and Living based on Android and developed by Vicente Montaño Mena</string>
+    <string name="dialog_button_title">Done</string>
+    
+    <string name="base_page_title">Page</string>
+    <string name="hint_page_selected">Page 0</string>
+    
+    <string name="default_image_description">Image description</string>
+    <string name="default_image_title">Image</string>
+    
+    <string name="default_button_title">Button</string>
+	<string name="hello_world">Hello world!</string>
+	
+</resources>
